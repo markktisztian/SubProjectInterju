@@ -1,0 +1,12 @@
+
+        <div class="subb">
+            <form (ngSubmit)="onSubmit()" method="post" action="/sub">
+                <span>Name:</span>
+                <input type="text" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" class="name" placeholder="Jhon Smith" required>
+                <span>E-mail:</span>
+                <input type="text" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="email" placeholder="exexexex5@gmail.com" required>
+                <button class="btSubmit" type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>

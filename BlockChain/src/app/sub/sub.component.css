@@ -1,0 +1,25 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  app-root, app-subb, .subb {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subb form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+
+
